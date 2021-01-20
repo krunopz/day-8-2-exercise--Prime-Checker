@@ -7,7 +7,9 @@ def prime_checker(number):
   if number==2:
     print("It's a prime number.")
   else:
-    for num in range(2,number):
+    up=round(number/2);
+    print(up)
+    for num in range(2,up):
       if number%num==0:
         i+=1
     print(f"i:{i}")
